@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>CONTATO PARA INFORMAÇÕES</h1>
+    <form action="" method="post">
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" size="40">
+        </p>
+         <P>
+            <label for="Data de Nascimento">Data de Nascimento:</label>
+            <input type="date" name="data_de_nascimento" id="data_de_nascimento">
+        </P>
+         <P>
+            <label for="Sexo">Sexo:</label>
+            <select id="Sexo" name="Sexo">
+                <option value="0" disabled selected>escolha uma opção</option>
+                <option value="feminino">feminino</option>
+                <option value="masculino">masculino</option>
+                <option value="prefiro não declarar">prefiro não declarar</option>
+            </select>
+        </P>
+          <P>
+            <label for="Rua">Rua:</label>
+            <input type="text" name="Rua" id="Rua">
+            <label for="Numero">Número:</label>
+            <input type="Number" name="Numero" id="Numero">
+            <label for="Bairro">Bairro:</label>
+            <input type="text" name="Bairro" id="Bairro">
+        </P>
+        <p>
+             <P>
+            <label for="estado">Estado:</label>
+            <select id="estado" name="Estado">
+                <option value="0" disabled selected>escolha uma opção</option>
+                <option value="es">Espirito Santo</option>
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+            </select>
+        </P>
+        <p>
+            <label for ="Cidade">Cidade:</label>
+            <input type="text" name="Cidade" id="Cidade">
+        </p>
+        <p>
+            <label for="Email">E-mail:</label>
+            <input type="email" name="email" id="email" >
+        </p>
+        <p>
+            <label for="Telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(00)00000-0000">
+        </p>
+        <fieldset>
+            <legend>Áreas de Interesse</legend>
+            <p>
+                <input type="checkbox"
+                name="jornalista" id="jornalista" value="jornalista">
+                <label for="JORNALISTA">JORNALISTA</label>
+            </p>
+            <p>
+                <input type="checkbox"
+                name="TORCEDOR" id="TORCEDOR" value="TORCEDOR">
+                <label for="TORCEDOR">TORCEDOR</label>
+            </p>
+            <p>
+                <input type="checkbox"
+                name="OUTRA AREA" id="OUTRA AREA" value="OUTRA AREA">
+                <label for="OUTRA AREA">OUTRA ÁREA</label>
+            </p>
+        </fieldset>
+        <p>
+            <label for="Usuario">Usuário:</label>
+            <input type="text" name="Usuario" id="Usuario" size="40">
+        </p>
+        <p>
+            <label for="Senha">Senha:</label>
+            <input type="password" name="Senha" id="Senha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar Dados">
+            <button type="button" onclick="mensagem();">
+                Executar Função
+            </button>
+        </p>
+          <a href="atividadeaula14.html">clique aqui para ir para a pagina inicial</a>
+</body>
+</html>
