@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Instrument Serif', serif;
+    box-sizing: border-box;
+}
+
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid rgb(253, 178, 231);
+
+}
+
+header {
+    background-color: rgb(217, 232, 255);
+    text-align: center;
+    padding: 30px 20px;
+
+}
+
+h1 a, h2 {
+    color: rgb(255, 137, 210);
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.principal {
+    
+    width: 1000px;
+    float: right;
+    padding: 20px 30px;
+
+}
+
+.principal h1, .principal h2 {
+    line-height: 1.5;
+}
+
+
+.principal h2{
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.auxiliar {
+    background-color: rgb(255, 225, 251);
+    width: 198px;
+    float: left;
+}
+
+hr {
+    margin: 30px 0 20px 0;
+}
+
+li a {
+    background-color: rgb(255, 219, 250);
+    color: rgb(101, 101, 255);
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 1px;
+    line-height: 2;
+}
+
+.auxiliar h2{
+    text-align: center;
+    margin: 10px;
+}
+
+li a:hover {
+    background-color: rgb(255, 0, 157);
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 150px;
+    margin: 10px auto;
+    display:block;
+}
+
+footer {
+    background-color: rgb(217, 232, 255);
+    clear: both;
+    color: #ff61d0;
+    padding: 10px 0;
+    text-align: center;
+}
